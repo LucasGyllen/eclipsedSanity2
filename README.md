@@ -1,1 +1,2 @@
-# eclipsedSanity2
+# EclipsedSanity
+Unity game

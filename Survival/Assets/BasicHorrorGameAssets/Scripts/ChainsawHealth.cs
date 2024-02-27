@@ -7,6 +7,8 @@ public class ChainsawHealth : MonoBehaviour, IDamageable
     public GameObject key;
     public Collider triggerCollider;
 
+    public AudioClip deathClip;
+
     public void Damage(float damage)
     {
         Debug.Log($"Enemy took {damage} damage.");
@@ -23,6 +25,7 @@ public class ChainsawHealth : MonoBehaviour, IDamageable
         triggerCollider.enabled = false;
 
         gameObject.GetComponent<Animator>().SetBool("Death", true);
+        AudioSource.PlayClipAtPoint(deathClip, transform.position);
 
         Invoke(nameof(MoveItemToPositionWithOffset), 3.2f);
     }

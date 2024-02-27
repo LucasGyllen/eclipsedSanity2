@@ -16,7 +16,9 @@ public class Gun : MonoBehaviour
     [Space]
     public GameObject ImpactEffect;
 
-    public AudioClip GunFire;
+    public AudioClip gunFire;
+    public AudioClip gunReload;
+    public AudioClip gunEmpty;
     private AudioSource audioSource;
     private Animator animator;
 
@@ -39,7 +41,8 @@ public class Gun : MonoBehaviour
 
     public void StartReload()
     {
-        if (!gunData.reloading && gunData.currentAmmo != gunData.magSize && gunData.currentMagAmount > 0)
+        if ((!gunData.reloading && gunData.currentAmmo != gunData.magSize && gunData.currentMagAmount > 0)
+            && !PauseManager.isPaused)
         {
             StartCoroutine(Reload());
         }
@@ -47,6 +50,11 @@ public class Gun : MonoBehaviour
 
     private IEnumerator Reload()
     {
+
+        //Plays sound if clip not full. Change in future so that this plays together with animation. If the "if" is removed this plays even when the gun is full.
+        if ((!gunData.reloading && gunData.currentAmmo < gunData.magSize))
+            PlaySound(gunReload);
+
         gunData.reloading = true;
         animator.SetBool("IsReloading", true);
         yield return new WaitForSeconds(gunData.reloadTime);
@@ -56,15 +64,15 @@ public class Gun : MonoBehaviour
         gunData.reloading = false;
     }
 
-    private bool CanShoot() => !gunData.reloading && timeSinceLastShot > 1f / (gunData.fireRate / 60f);
+    private bool CanShoot() => !PauseManager.isPaused && !gunData.reloading && timeSinceLastShot > 1f / (gunData.fireRate / 60f);
 
     public void Shoot()
     {
-        if (gunData.currentAmmo > 0 && gunData.currentMagAmount >= 0)
+        if (CanShoot())
         {
-            if (CanShoot())
+            if (gunData.currentAmmo > 0)
             {
-                PlaySound(GunFire);
+                PlaySound(gunFire);
                 animator.Play("Shoot");
 
                 if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit hitInfo, gunData.maxDistance))
@@ -94,10 +102,13 @@ public class Gun : MonoBehaviour
 
                 Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward * gunData.maxDistance, Color.red, 1.0f);
             }
-        }
-        else
-        {
-            //Debug.Log("Out of ammo!");
+            else
+            {
+                PlaySound(gunEmpty);
+                timeSinceLastShot = 0;
+                animator.Play("Shoot");
+                //Debug.Log("Out of ammo!");
+            }
         }
     }
 

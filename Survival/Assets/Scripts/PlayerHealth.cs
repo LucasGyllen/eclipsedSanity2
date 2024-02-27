@@ -15,6 +15,9 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     public float delay = 0.5f;
     public GameObject fadeout;
 
+    //private bool isDead;
+    //public GameManagerScript gameManager;
+
     //public string nextSceneName; // Name of the next scene to load
     //public float delay = 0.5f; // Delay in seconds before loading the next scene
     //public GameObject fadeout;
@@ -39,6 +42,8 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         if (currentHealth <= 0)
         {
             Die();
+            //isDead = true;
+            //gameManager.gameOver();
         }
     }
 
@@ -54,16 +59,19 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         Debug.Log($"Player healed, now has {currentHealth} HP.");
 
     }
-
+    
     // Function to handle the enemy's death.
     private void Die()
     {
         fadeout.SetActive(true);
         Invoke("LoadGameOverScene", delay);
+        //Cursor.visible = true;
+        //Cursor.lockState = CursorLockMode.None;
     }
 
     private void LoadGameOverScene()
     {
         SceneManager.LoadScene(gameOverSceneName);
     }
+    
 }

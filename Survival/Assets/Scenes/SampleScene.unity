@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &3921670
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -382,7 +382,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &3921671 stripped
 Transform:
@@ -2115,7 +2115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &63772555
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2135,7 +2135,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &66407011
 PrefabInstance:
@@ -2430,7 +2430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &73348213
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2450,7 +2450,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &73680609
 GameObject:
@@ -2812,7 +2812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &78750899
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2832,7 +2832,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &78750900 stripped
 Transform:
@@ -3967,7 +3967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &96827281
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3987,7 +3987,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &96827282 stripped
 Transform:
@@ -9202,7 +9202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &198904224
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9222,7 +9222,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &198904225 stripped
 Transform:
@@ -9575,7 +9575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &212189316
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9595,7 +9595,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &213352719
 GameObject:
@@ -10117,7 +10117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &216775235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10137,7 +10137,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &218793312
 PrefabInstance:
@@ -11472,7 +11472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &243123668
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11492,7 +11492,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &246399385
 GameObject:
@@ -12118,7 +12118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &264371210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12138,7 +12138,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &264594344
 GameObject:
@@ -15433,7 +15433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &327652703
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15453,7 +15453,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &331795305
 PrefabInstance:
@@ -15946,7 +15946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &337933334
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15966,7 +15966,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &338246321
 PrefabInstance:
@@ -16767,7 +16767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &353411964
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16787,7 +16787,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &353411965 stripped
 Transform:
@@ -17683,7 +17683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &377317806
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17703,7 +17703,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!65 &380726900
 BoxCollider:
@@ -17877,7 +17877,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!114 &383976872
 MonoBehaviour:
@@ -18014,7 +18014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &385152374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18034,7 +18034,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &385152375 stripped
 Transform:
@@ -19055,7 +19055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &406381015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19075,7 +19075,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &406976789
 PrefabInstance:
@@ -22369,7 +22369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &446079029
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22389,7 +22389,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &448155926
 GameObject:
@@ -34271,7 +34271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &619998128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34291,7 +34291,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &621050608
 PrefabInstance:
@@ -34952,7 +34952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &629999429
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34972,7 +34972,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &638572997 stripped
 GameObject:
@@ -35781,7 +35781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &651234997
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35801,7 +35801,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &651234998 stripped
 Transform:
@@ -39721,7 +39721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &695112252
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39741,7 +39741,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &695112253 stripped
 Transform:
@@ -39904,7 +39904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &701691940
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39924,7 +39924,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &702083716
 PrefabInstance:
@@ -40221,7 +40221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &710484022
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40241,7 +40241,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &710516629
 GameObject:
@@ -40311,7 +40311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &710768309
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40331,7 +40331,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &711552014
 PrefabInstance:
@@ -44699,7 +44699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &831361196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44719,7 +44719,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &832968231 stripped
 GameObject:
@@ -50577,7 +50577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &966780775
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50597,7 +50597,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &966780776 stripped
 Transform:
@@ -53043,7 +53043,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.20401983, y: 0.08894562, z: 0.018419623}
+  m_Size: {x: 0.3, y: 0.15, z: 0.1}
   m_Center: {x: -0.03511072, y: 0.00006376022, z: -0.008966636}
 --- !u!114 &1044559893
 MonoBehaviour:
@@ -54807,7 +54807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1080897120
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54827,7 +54827,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &1083900081
 PrefabInstance:
@@ -55435,7 +55435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1104671612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55455,7 +55455,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &1104671613 stripped
 Transform:
@@ -62632,7 +62632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1157935528
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62652,7 +62652,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &1159971413
 PrefabInstance:
@@ -64667,7 +64667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1212251086
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64687,7 +64687,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &1212251087 stripped
 Transform:
@@ -66082,7 +66082,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.20401983, y: 0.08894562, z: 0.018419623}
+  m_Size: {x: 0.3, y: 0.15, z: 0.1}
   m_Center: {x: -0.03511072, y: 0.00006376022, z: -0.008966636}
 --- !u!114 &1232904060
 MonoBehaviour:
@@ -66389,7 +66389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1239176465
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66409,7 +66409,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &1239940534 stripped
 Transform:
@@ -66806,7 +66806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1248427233
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66826,7 +66826,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &1250106957
 GameObject:
@@ -68543,7 +68543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1289143486
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68563,7 +68563,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &1289729767 stripped
 GameObject:
@@ -69631,7 +69631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1313948978
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69651,7 +69651,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &1313948979 stripped
 Transform:
@@ -69816,7 +69816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1321351706
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69836,7 +69836,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &1322357379
 GameObject:
@@ -71427,7 +71427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1361988334
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71447,7 +71447,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &1364042552
 GameObject:
@@ -73067,7 +73067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1397054829
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73087,7 +73087,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &1398574035
 GameObject:
@@ -74353,7 +74353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1423119816
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74373,7 +74373,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &1434396733 stripped
 GameObject:
@@ -74410,7 +74410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1434396737
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74430,7 +74430,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &1434867689
 PrefabInstance:
@@ -76292,7 +76292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1487156213
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76312,7 +76312,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &1488418321
 GameObject:
@@ -76872,7 +76872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1508357057
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76892,7 +76892,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &1509123527
 PrefabInstance:
@@ -77030,7 +77030,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.23, y: 0.15, z: -0.19}
+  m_Size: {x: 0.3, y: 0.15, z: 0.1}
   m_Center: {x: -0.03511072, y: 0.00006376022, z: -0.008966636}
 --- !u!114 &1509123532
 MonoBehaviour:
@@ -77819,7 +77819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1521262558
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77839,7 +77839,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &1521551887
 PrefabInstance:
@@ -83636,7 +83636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1547498253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -83656,7 +83656,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &1547498254 stripped
 Transform:
@@ -86274,7 +86274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1608299025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -86294,7 +86294,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &1610648868 stripped
 Transform:
@@ -87177,7 +87177,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.17, z: 0.1}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!114 &1619209983
 MonoBehaviour:
@@ -87869,7 +87869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1638366158
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -87889,7 +87889,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &1638366159 stripped
 Transform:
@@ -88087,7 +88087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1641166361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -88107,7 +88107,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &1642543067
 PrefabInstance:
@@ -88799,7 +88799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1660061489
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -88819,7 +88819,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &1661787716
 PrefabInstance:
@@ -89512,7 +89512,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!114 &1668467450
 MonoBehaviour:
@@ -90689,7 +90689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1712543160
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -90709,7 +90709,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &1713119330 stripped
 GameObject:
@@ -92061,7 +92061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1753464212
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -92081,7 +92081,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!114 &1753464215
 MonoBehaviour:
@@ -96133,7 +96133,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.29, y: 0.12, z: 0.08}
+  m_Size: {x: 0.3, y: 0.15, z: 0.1}
   m_Center: {x: -0.03511072, y: 0.00006376022, z: -0.008966636}
 --- !u!114 &1828230865
 MonoBehaviour:
@@ -104405,7 +104405,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.20401983, y: 0.08894562, z: 0.018419623}
+  m_Size: {x: 0.3, y: 0.15, z: 0.1}
   m_Center: {x: -0.03511072, y: 0.00006376022, z: -0.008966636}
 --- !u!114 &1908104938
 MonoBehaviour:
@@ -105037,7 +105037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1921392874
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -105057,7 +105057,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &1922402224
 PrefabInstance:
@@ -105641,7 +105641,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.20401983, y: 0.08894562, z: 0.018419623}
+  m_Size: {x: 0.3, y: 0.15, z: 0.1}
   m_Center: {x: -0.03511072, y: 0.00006376022, z: -0.008966636}
 --- !u!114 &1935258142
 MonoBehaviour:
@@ -106415,7 +106415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &1952034092
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -106435,7 +106435,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &1952861889
 GameObject:
@@ -109287,7 +109287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &2026685053
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -109307,7 +109307,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &2028657706
 GameObject:
@@ -109897,7 +109897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &2035610322
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -109917,7 +109917,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &2035610323 stripped
 Transform:
@@ -114139,7 +114139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &2071920356
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -114159,7 +114159,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &2074344434
 PrefabInstance:
@@ -114348,7 +114348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &2074793480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -114368,7 +114368,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1001 &2074961950
 PrefabInstance:
@@ -114583,7 +114583,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &2079286199
 GameObject:
@@ -114842,7 +114842,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!114 &2086520453
 MonoBehaviour:
@@ -114856,7 +114856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!114 &2086520456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117438,7 +117438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &2140359785
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -117458,7 +117458,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!1 &2143401362
 GameObject:
@@ -117663,7 +117663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e86c216f014d903439060cd429cb53a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TypeOfMaterial: 1
+  TypeOfMaterial: 0
 --- !u!65 &2146095990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -117683,7 +117683,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.058852464, y: 0.020218275, z: 0.06506889}
+  m_Size: {x: 0.08, y: 0.08, z: 0.08}
   m_Center: {x: 0.0032901773, y: 0.010496514, z: 0.0014964575}
 --- !u!4 &2146095991 stripped
 Transform:

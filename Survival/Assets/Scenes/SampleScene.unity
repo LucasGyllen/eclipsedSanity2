@@ -22529,7 +22529,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Drop down \nif you dare "
+  m_text: "Drop down \nif you dare! "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cc9a2ed41fb7ed54b84f1450445c479d, type: 2}
   m_sharedMaterial: {fileID: 7564619801008220437, guid: cc9a2ed41fb7ed54b84f1450445c479d, type: 2}

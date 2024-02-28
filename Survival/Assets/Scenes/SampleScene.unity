@@ -4020,7 +4020,9 @@ MonoBehaviour:
   - MaterialType: 9
     ImpactEffect: {fileID: 149956, guid: 3dc518bed1b2ee14481a2a155c19da18, type: 3}
   ImpactEffect: {fileID: 124018, guid: 1f389bb139e76154582cf3c5e4f9214b, type: 3}
-  GunFire: {fileID: 8300000, guid: d8671e3ac1c052f4882a5b880273286e, type: 3}
+  gunFire: {fileID: 0}
+  gunReload: {fileID: 0}
+  gunEmpty: {fileID: 0}
 --- !u!95 &98336333
 Animator:
   serializedVersion: 5
@@ -6813,7 +6815,7 @@ MonoBehaviour:
   invertCamera: 0
   cameraCanMove: 1
   mouseSensitivity: 2.1
-  maxLookAngle: 50
+  maxLookAngle: 90
   lockCursor: 1
   crosshair: 1
   crosshairImage: {fileID: 21300000, guid: be4ce60e2c9768c44b9b10b9c5258045, type: 3}
@@ -6892,6 +6894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  healthbar: {fileID: 0}
   healthBarFill: {fileID: 1924000056}
   gameOverSceneName: YouDead
   delay: 1.2
@@ -75123,6 +75126,7 @@ MonoBehaviour:
   keyPosition: {fileID: 1477362930}
   key: {fileID: 1935258136}
   triggerCollider: {fileID: 1550778863}
+  deathClip: {fileID: 0}
 --- !u!1 &1551224312
 GameObject:
   m_ObjectHideFlags: 0
@@ -75723,7 +75727,9 @@ MonoBehaviour:
   - MaterialType: 9
     ImpactEffect: {fileID: 149956, guid: 3dc518bed1b2ee14481a2a155c19da18, type: 3}
   ImpactEffect: {fileID: 179846, guid: a7730127594a3ad46a512f70521a6446, type: 3}
-  GunFire: {fileID: 8300000, guid: d8671e3ac1c052f4882a5b880273286e, type: 3}
+  gunFire: {fileID: 0}
+  gunReload: {fileID: 0}
+  gunEmpty: {fileID: 0}
 --- !u!95 &1561966076
 Animator:
   serializedVersion: 5
@@ -77721,7 +77727,9 @@ MonoBehaviour:
   - MaterialType: 9
     ImpactEffect: {fileID: 149956, guid: 3dc518bed1b2ee14481a2a155c19da18, type: 3}
   ImpactEffect: {fileID: 160582, guid: 8ff371e17619a504b9822fc6a2facdb2, type: 3}
-  GunFire: {fileID: 8300000, guid: 92f3926ab088d854e9635995036af132, type: 3}
+  gunFire: {fileID: 0}
+  gunReload: {fileID: 0}
+  gunEmpty: {fileID: 0}
 --- !u!95 &1617233125
 Animator:
   serializedVersion: 5

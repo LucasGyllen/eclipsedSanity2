@@ -36121,14 +36121,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 654693185}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b502ee95d55e05445bbb1a032140076c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 678855049}
   item: {fileID: 1509123529}
-  offset: {x: 0, y: 0.5, z: 0}
+  offset: {x: 0, y: 0.2, z: 0}
 --- !u!114 &654693188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36176,8 +36176,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -53320,7 +53320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _keyInventory: {fileID: 509578798}
-  keyType: 0
+  keyType: 4
 --- !u!65 &1044559892
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66367,7 +66367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _keyInventory: {fileID: 509578798}
-  keyType: 0
+  keyType: 2
 --- !u!65 &1232904059
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77339,7 +77339,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3, y: 0.15, z: 0.1}
+  m_Size: {x: 0.2, y: 0.1, z: 0.07}
   m_Center: {x: -0.03511072, y: 0.00006376022, z: -0.008966636}
 --- !u!114 &1509123532
 MonoBehaviour:
@@ -77348,7 +77348,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509123529}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f071b40d9c11df4eb44d8b8ade8aead, type: 3}
   m_Name: 
@@ -104699,7 +104699,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _keyInventory: {fileID: 509578798}
-  keyType: 0
+  keyType: 3
 --- !u!65 &1908104937
 BoxCollider:
   m_ObjectHideFlags: 0

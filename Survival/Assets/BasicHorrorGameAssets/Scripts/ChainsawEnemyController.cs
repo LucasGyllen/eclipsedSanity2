@@ -119,7 +119,7 @@ public class ChainsawEnemyController : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, player.position) <= triggerDistance)
         {
-            if (!audioSource.isPlaying || audioSource.clip != soundClip)
+            if (!audioSource.isPlaying && audioSource.clip != soundClip)
             {
                 audioSource.clip = soundClip;
                 audioSource.Play();

@@ -7,6 +7,7 @@ public class ObjectLookedAtByPlayer : MonoBehaviour, iGazeReceiver
 
     [SerializeField] private GameObject UIText = null;
     [SerializeField] private int timeToShowUI = 1;
+    [SerializeField] private bool textStay = false;
 
     void Update()
     {
@@ -14,7 +15,7 @@ public class ObjectLookedAtByPlayer : MonoBehaviour, iGazeReceiver
         {
             UIText.SetActive(true);
         }
-        else
+        else if (!textStay)
         {
             UIText.SetActive(false);
         }

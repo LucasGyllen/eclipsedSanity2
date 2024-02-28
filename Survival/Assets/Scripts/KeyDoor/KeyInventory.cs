@@ -12,7 +12,8 @@ namespace KeySystem
         RedKey,
         BlueKey,
         GreenKey,
-        ChainsawKey
+        ChainsawKey,
+        PurpleKey
     }
 
 

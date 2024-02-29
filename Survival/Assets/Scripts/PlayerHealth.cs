@@ -8,8 +8,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
 {
     [SerializeField] private float maxHealth = 100f;
     public float currentHealth;
-    public HealthBar healthbar;
-    [SerializeField] private Image healthBarFill;
+    public Healthbar healthbar;
 
     public string gameOverSceneName;
     public float delay = 0.5f;
@@ -24,7 +23,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     public void Start()
     {
         currentHealth = maxHealth;
-        //healthbar.setMaxHealth(maxHealth);
+        healthbar.setMaxHealth(maxHealth);
     }
 
     public void Damage(float damage)
@@ -54,7 +53,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
         // Ensure health never exceeds maxHealth
         currentHealth = Mathf.Min(currentHealth, maxHealth);
 
-        //healthbar.setHealth(currentHealth);
+        healthbar.setHealth(currentHealth);
 
         Debug.Log($"Player healed, now has {currentHealth} HP.");
 

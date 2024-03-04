@@ -23,8 +23,9 @@ public class FillAmmo : MonoBehaviour, IInteractable
             }
             else if (gun != null && !gun.CanRefillAmmo())
             {
-                ammoText.SetActive(true);
-                StartCoroutine(Delay());
+                Debug.Log("text shown");
+                //ammoText.SetActive(true);
+                //StartCoroutine(Delay());
             }
         }
 
@@ -37,9 +38,8 @@ public class FillAmmo : MonoBehaviour, IInteractable
 
     IEnumerator Delay()
     {
-        Debug.Log("Delay..");
+        Debug.Log("hej");
         yield return new WaitForSeconds(1f);
-        Debug.Log("Done!");
         ammoText.SetActive(false);
     }
 }

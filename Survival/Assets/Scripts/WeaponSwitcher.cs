@@ -8,6 +8,9 @@ public class WeaponSwitcher : MonoBehaviour
 
     private int currentWeaponIndex = 0;
 
+    public int getCurrentWeaponIndex () { return currentWeaponIndex; }
+    public List<GameObject> getWeapons() { return weapons; }
+
     void Start()
     {
         UpdateWeaponActiveState();

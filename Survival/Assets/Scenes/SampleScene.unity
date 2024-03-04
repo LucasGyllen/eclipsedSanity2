@@ -19522,6 +19522,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &412060291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33015,6 +33016,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &588261047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33924,6 +33926,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &606297252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34432,6 +34435,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &609327416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35335,6 +35339,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &625027338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37588,6 +37593,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &661393411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41282,6 +41288,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &711552018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44184,6 +44191,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!1001 &792157406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46908,6 +46916,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &866201218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47400,6 +47409,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &873036999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48592,6 +48602,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &895410440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49172,6 +49183,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &907278406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55208,6 +55220,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1064510526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64401,6 +64414,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1159971417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65169,6 +65183,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1178763970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65998,6 +66013,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1208186054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67330,6 +67346,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1227614406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68268,6 +68285,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!1 &1247497340
 GameObject:
   m_ObjectHideFlags: 0
@@ -68945,6 +68963,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1257625230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76959,6 +76978,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1468691708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77347,6 +77367,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1469804043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79718,6 +79739,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1517091729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95291,6 +95313,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1761718959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98481,6 +98504,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1818147613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108261,6 +108285,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1922402228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109174,6 +109199,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1946709487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111290,6 +111316,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1993625874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111600,6 +111627,7 @@ MonoBehaviour:
   - {fileID: 1561966075}
   - {fileID: 98336332}
   - {fileID: 1617233124}
+  weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &2005101432
 MonoBehaviour:
   m_ObjectHideFlags: 0

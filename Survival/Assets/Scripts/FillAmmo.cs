@@ -6,27 +6,23 @@ using UnityEngine;
 public class FillAmmo : MonoBehaviour, IInteractable
 {
     [SerializeField] private GameObject ammoText = null;
-    [SerializeField] private Gun[] guns;
+    [SerializeField] private WeaponSwitcher weaponSwitcher;
 
     public void Interact()
     {
         bool shouldDestroy = false; // Flag to determine if the ammo pack should be destroyed
-        foreach (Gun gun in guns)
-        {
-            if (gun != null && gun.CanRefillAmmo())
+        Gun gun = weaponSwitcher.getWeapons()[weaponSwitcher.getCurrentWeaponIndex()].GetComponent<Gun>();
+        if (gun != null && gun.CanRefillAmmo())
             {
                 Debug.Log("h");
                 gun.fillAmmo(); // Call the method to fill ammo
                 shouldDestroy = true; // Set flag to true since at least one gun needed ammo
-                break;
             }
             else if (gun != null && !gun.CanRefillAmmo())
             {
                 ammoText.SetActive(true);
                 StartCoroutine(Delay());
-                break;
             }
-        }
 
         // If any gun was refilled, destroy the ammo pack
         if (shouldDestroy)

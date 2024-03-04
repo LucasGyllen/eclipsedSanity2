@@ -6,6 +6,10 @@ using UnityEngine.UI;
 
 public class PauseManager : MonoBehaviour
 {
+
+    public Slider brightnessSlider;
+    public Light spotLight;
+
     public GameObject pauseMenu;
     public KeyCode pauseKey;
     public static bool isPaused;
@@ -20,6 +24,9 @@ public class PauseManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        brightnessSlider.onValueChanged.AddListener(ChangeBrightness);
+
         if (Input.GetKeyUp(pauseKey))
         {
             if (isPaused)
@@ -35,7 +42,10 @@ public class PauseManager : MonoBehaviour
 
     public void ChangeBrightness(float value)
     {
-        Screen.brightness = value;
+        if (value <= 0.1f)
+            spotLight.intensity = 0.1f;
+        else
+        spotLight.intensity = value;
     }
 
     public void PauseGame()

@@ -6373,6 +6373,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 137289289}
+  - component: {fileID: 137289290}
   m_Layer: 0
   m_Name: Inventory
   m_TagString: Untagged
@@ -6395,6 +6396,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1652522096}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &137289290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137289288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34002ff810e32f40b27c805a58acb63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &137787021
 GameObject:
   m_ObjectHideFlags: 0
@@ -19518,10 +19531,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &412060291
 MonoBehaviour:
@@ -20110,6 +20119,10 @@ PrefabInstance:
     - target: {fileID: 1998371697940912222, guid: d58be77cba3adf54cb14b15052b86514, type: 3}
       propertyPath: m_Name
       value: Zombie2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1998371697940912222, guid: d58be77cba3adf54cb14b15052b86514, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1998371697940912222, guid: d58be77cba3adf54cb14b15052b86514, type: 3}
       propertyPath: m_TagString
@@ -32430,7 +32443,7 @@ RectTransform:
   m_GameObject: {fileID: 579540636}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3712, y: 1.3712, z: 1.3712}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1621770451}
@@ -32438,7 +32451,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000007391, y: 185}
+  m_AnchoredPosition: {x: 0, y: 73.406}
   m_SizeDelta: {x: 250, y: 46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &579540638
@@ -33012,10 +33025,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &588261047
 MonoBehaviour:
@@ -33079,7 +33088,7 @@ RectTransform:
   m_GameObject: {fileID: 590100978}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3712, y: 1.3712, z: 1.3712}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1101644486}
@@ -33087,7 +33096,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 55}
+  m_AnchoredPosition: {x: 0, y: -104.86}
   m_SizeDelta: {x: 250, y: 46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &590100980
@@ -33922,10 +33931,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &606297252
 MonoBehaviour:
@@ -34431,10 +34436,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &609327416
 MonoBehaviour:
@@ -35335,10 +35336,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &625027338
 MonoBehaviour:
@@ -37589,10 +37586,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &661393411
 MonoBehaviour:
@@ -41284,10 +41277,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &711552018
 MonoBehaviour:
@@ -43428,7 +43417,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1469392171}
   - {fileID: 1703626138}
@@ -44187,10 +44176,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!1001 &792157406
 PrefabInstance:
@@ -46912,10 +46897,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &866201218
 MonoBehaviour:
@@ -47405,10 +47386,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &873036999
 MonoBehaviour:
@@ -48598,10 +48575,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &895410440
 MonoBehaviour:
@@ -49179,10 +49152,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &907278406
 MonoBehaviour:
@@ -55216,10 +55185,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1064510526
 MonoBehaviour:
@@ -64410,10 +64375,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1159971417
 MonoBehaviour:
@@ -65179,10 +65140,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1178763970
 MonoBehaviour:
@@ -66009,10 +65966,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1208186054
 MonoBehaviour:
@@ -67342,10 +67295,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1227614406
 MonoBehaviour:
@@ -68281,10 +68230,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!1 &1247497340
 GameObject:
@@ -68959,10 +68904,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1257625230
 MonoBehaviour:
@@ -76974,10 +76915,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1468691708
 MonoBehaviour:
@@ -77123,14 +77060,14 @@ RectTransform:
   m_GameObject: {fileID: 1469392170}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3712, y: 1.3712, z: 1.3712}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 768665267}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: 381}
+  m_AnchoredPosition: {x: 0, y: 342.17}
   m_SizeDelta: {x: 371.186, y: 92.7965}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1469392172
@@ -77363,10 +77300,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1469804043
 MonoBehaviour:
@@ -79548,12 +79481,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -79735,10 +79668,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1517091729
 MonoBehaviour:
@@ -92824,15 +92753,15 @@ RectTransform:
   m_GameObject: {fileID: 1703626137}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.3712, y: 1.3712, z: 1.3712}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1517190323}
   m_Father: {fileID: 768665267}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 250}
+  m_AnchoredPosition: {x: 0, y: 162.54}
   m_SizeDelta: {x: 250, y: 46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1703626139
@@ -95309,10 +95238,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1761718959
 MonoBehaviour:
@@ -97739,7 +97664,7 @@ RectTransform:
   m_GameObject: {fileID: 1813977745}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3712, y: 1.3712, z: 1.3712}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 607882298}
@@ -97750,7 +97675,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -460, y: 117.19}
+  m_AnchoredPosition: {x: 0, y: -330}
   m_SizeDelta: {x: 412.9501, y: 51.6188}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1813977747
@@ -98500,10 +98425,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1818147613
 MonoBehaviour:
@@ -98827,7 +98748,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 15ebe9f1bab0f7e4fab0138577003ed2, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.8571422
+      value: 2.857142
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 15ebe9f1bab0f7e4fab0138577003ed2, type: 3}
       propertyPath: m_LocalScale.y
@@ -98876,6 +98797,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 15ebe9f1bab0f7e4fab0138577003ed2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 15ebe9f1bab0f7e4fab0138577003ed2, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 15ebe9f1bab0f7e4fab0138577003ed2, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -100755,7 +100680,7 @@ RectTransform:
   m_GameObject: {fileID: 1872369678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3712, y: 1.3712, z: 1.3712}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1946260365}
@@ -100763,7 +100688,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 120}
+  m_AnchoredPosition: {x: 0, y: -15.726}
   m_SizeDelta: {x: 250, y: 46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1872369680
@@ -108281,10 +108206,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1922402228
 MonoBehaviour:
@@ -109195,10 +109116,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1946709487
 MonoBehaviour:
@@ -111312,10 +111229,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &1993625874
 MonoBehaviour:
@@ -111623,10 +111536,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 1024767253}
-  guns:
-  - {fileID: 1561966075}
-  - {fileID: 98336332}
-  - {fileID: 1617233124}
   weaponSwitcher: {fileID: 1820434787}
 --- !u!114 &2005101432
 MonoBehaviour:

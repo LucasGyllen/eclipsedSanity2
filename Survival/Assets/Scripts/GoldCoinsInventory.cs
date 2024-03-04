@@ -7,7 +7,7 @@ using TMPro;
 public class GoldCoinsInventory : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI coinsCollected;
-    public int coinsCounter;
+    public static int coinsCounter;
     // Start is called before the first frame update
     void Start()
     {

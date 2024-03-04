@@ -29,4 +29,9 @@ public class GameMangerScript : MonoBehaviour
     {
         SceneManager.LoadScene(scene);
     }
+
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }

@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PauseManager : MonoBehaviour
 {
-
     public GameObject pauseMenu;
     public KeyCode pauseKey;
     public static bool isPaused;
@@ -31,6 +31,11 @@ public class PauseManager : MonoBehaviour
                 PauseGame();
             }
         }
+    }
+
+    public void ChangeBrightness(float value)
+    {
+        Screen.brightness = value;
     }
 
     public void PauseGame()

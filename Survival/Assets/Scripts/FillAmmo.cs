@@ -11,8 +11,11 @@ public class FillAmmo : MonoBehaviour, IInteractable
     public void Interact()
     {
         bool shouldDestroy = false; // Flag to determine if the ammo pack should be destroyed
-        Gun gun = weaponSwitcher.getWeapons()[weaponSwitcher.getCurrentWeaponIndex()].GetComponent<Gun>();
-        if (gun != null && gun.CanRefillAmmo())
+        List<GameObject> weapons = weaponSwitcher.getWeapons();
+        foreach (GameObject weapon in weapons)
+        {
+            Gun gun = weapon.GetComponent<Gun>();
+            if (gun != null && gun.CanRefillAmmo())
             {
                 Debug.Log("h");
                 gun.fillAmmo(); // Call the method to fill ammo
@@ -23,6 +26,7 @@ public class FillAmmo : MonoBehaviour, IInteractable
                 ammoText.SetActive(true);
                 StartCoroutine(Delay());
             }
+        }
 
         // If any gun was refilled, destroy the ammo pack
         if (shouldDestroy)

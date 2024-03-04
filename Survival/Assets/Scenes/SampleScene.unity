@@ -7721,7 +7721,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinsCollected: {fileID: 569308518}
-  coinsCounter: 0
 --- !u!1001 &149096360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37813,7 +37812,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pick up with [E]
+  m_text: 'Purple Key
+
+    Pick up with [E]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
